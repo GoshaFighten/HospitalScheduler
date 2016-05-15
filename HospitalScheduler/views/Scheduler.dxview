@@ -1,0 +1,5 @@
+<div data-options="dxView : { name: 'Scheduler', title: 'Scheduler' } " >
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background">
+        <div data-bind="dxScheduler: schedulerConfig"></div>
+    </div>
+</div>
