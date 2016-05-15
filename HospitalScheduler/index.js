@@ -12,7 +12,7 @@ $(function() {
     };
 
     HospitalScheduler.showError = function (message, displayTime) {
-        HospitalScheduler.notify(message, 'error', displayTime);
+        HospitalScheduler.notify(message, 'error', displayTime); 
     };
 
     HospitalScheduler.showSuccess = function (message, displayTime) {
